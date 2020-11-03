@@ -19,7 +19,9 @@ function Footer() {
           Join our exclusive membership to receive the latest news and trends
         </p>
         <p className="footer-subscription-text">
-          You can unsubscribe at any time.
+          PS: This is a demo of a react responsive web app.
+          <br />
+          No functionality backend features.
         </p>
         <div className="input-areas">
           <form>
@@ -96,9 +98,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
-              }
+              to={'//www.youtube.com/watch?v=3nLTB_E6XAM'}
               target="_blank"
               aria-label="Youtube"
             >
@@ -114,7 +114,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to={'//www.linkedin.com/in/vincentloongc/'}
               target="_blank"
               aria-label="LinkedIn"
             >

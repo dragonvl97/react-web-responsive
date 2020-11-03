@@ -1,13 +1,8 @@
 import React from 'react';
-import HeroSection from '../../HeroSection';
-import { homeObjOne, homeObjThree, homeObjTwo, homeObjFour } from './Data';
+import Error from '../../Error';
 
 function Home() {
-  return (
-    <div>
-      <HeroSection {...homeObjOne} />
-    </div>
-  );
+  return <Error />;
 }
 
 export default Home;
